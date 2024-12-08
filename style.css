@@ -43,7 +43,7 @@ span{
     display: flex;
     flex-direction: column;
     gap: .8rem;
-    padding: 30px 20px;
+    padding: 20px 20px;
     font-family: Figtree;
     justify-content: center;
     align-items: left;
@@ -63,7 +63,7 @@ span{
     font: 14px/1.5 Figtree;
     padding: 5px 0;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
 }
@@ -74,10 +74,10 @@ span{
 }
 .author p{
     color: hsl(0, 0%, 7%);
-    font-weight: 600;
+    font-weight: 800;
 }
 .author img{
-    height: 50px;
+    height: 30px;
     object-fit: cover;
     
 }
