@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.7em;
+}
+p{
+    font: 16px/1.5 Figtree;
+    color: hsl(0, 0%, 42%);
+}
+span{
+    font: 14px/1.4 Figtree;
+}
+.Main{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 80px 20px;
+    width: 30%;
+    font-family: Figtree;
+    border: 1px solid;
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+.Main>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    padding: 30px 20px;
+    font-family: Figtree;
+    justify-content: center;
+    align-items: left;
+
+}
+.Main>div>img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.Main>div button{
+    width: 25%;
+    border: none;
+    outline: none;
+    font: 14px/1.5 Figtree;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.author p{
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+}
+.author img{
+    height: 50px;
+    object-fit: cover;
+    
+}
+
+@media only screen and (max-width:768px) {
+    .Main{
+        width: 80%;
+        margin: 50px;
+    }
+    p{
+        font: 14px/1.5 Figtree;
+    }
+    h1{
+        font: 20px/1.5 Figtree;  
+        font-weight: 700;
+    }
+
+}
